@@ -2,12 +2,13 @@
 This repo converts the CADEC corpus into the train and test CoNLL representation described in [Recognizing Mentions of Adverse Drug Reaction in Social Media Using Knowledge-Infused Recurrent Models, Stanovsky, Gruhl, and Mendes, EACL 2017](https://gabrielstanovsky.github.io/assets/papers/eacl17a/paper.pdf).
 
 ## Prerequisites
-0. Python (tested on python 3.6)
-1. Install required packages:
+
+* Python (tested on python 3.6)
+* Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
-2. Download the [CADEC corpus](https://doi.org/10.4225/08/570FB102BDAD2), and unpack it into the [data] folder.
+* Download the [CADEC corpus](https://doi.org/10.4225/08/570FB102BDAD2), and unpack it into the [data] folder.
 
 ## Creating the corpus
 
