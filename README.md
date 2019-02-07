@@ -34,3 +34,29 @@ clearly associated with taking the drug, e.g, *acute stomach pain*.
 4. **Symptom**, manifestations of the disease, e.g.,  *trouble sleeping* or *constantly angry*.
 5. **Finding**, a clinical finding that does not pertain to any of the above categories.
 
+## Citing
+
+If you found this useful, please cite:
+
+```bibtex
+@InProceedings{stanovsky2017recognizing,
+author={Stanovsky, Gabriel and Gruhl, Daniel and Mendes, Pablo N.},
+title ={Recognizing Mentions of Adverse Drug Reaction in Social Media Using Knowledge-Infused Recurrent Models},
+booktitle = {Proceedings of the 2017 Conference of the European Chapter of the Association
+for Computational Linguistics},
+month     = {April},
+year      = {2017},
+address   = {Valencia, Spain},
+publisher = {Association for Computational Linguistics},
+}
+
+@article{karimi2015cadec,
+  title={Cadec: A corpus of adverse drug event annotations},
+  author={Karimi, Sarvnaz and Metke-Jimenez, Alejandro and Kemp, Madonna and Wang, Chen},
+  journal={Journal of biomedical informatics},
+  volume={55},
+  pages={73--81},
+  year={2015},
+  publisher={Elsevier}
+}
+```
