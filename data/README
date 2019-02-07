@@ -1,0 +1,54 @@
+
+CADEC Dataset
+----------------------------------------------------------------------
+
+The CADEC corpus (CSIRO Adverse Drug Event Corpus) is is a new rich
+annotated corpus of medical forum posts on patient-reported Adverse Drug
+Events (ADEs). The corpus is sourced from posts on social media, and
+contains text that is largely written in colloquial language and often
+deviates from formal English grammar and punctuation rules. Annotations
+contain mentions of concepts such as drugs, adverse events, symptoms,
+and diseases linked to their corresponding concepts in controlled
+vocabularies, i.e., SNOMED Clinical Terms and MedDRA. The quality of the
+annotations is ensured by annotation guidelines, multi-stage
+annotations, measuring inter-annotator agreement, and final review of
+the annotations by a clinical terminologist. This corpus is useful for
+those studies in the area of information extraction, or more generally
+text mining, from social media to detect possible adverse drug reactions
+from direct patient reports.
+
+----------------------------------------------------------------------
+
+The data is divided into three sub-folders:
+1- Original: these are the entities annotated in the posts. The format
+is Tag number  Entity Type   offsets text
+
+for example:
+T3      ADR 165 172     cramped
+
+The number of files represents the number of posts.
+
+2- AMT-SCT: the same files in the original set, now annotated with SCT
+or AMT concepts. 
+
+The example above will be:
+TT3     55300003 | Muscle cramp | 165 172       cramped
+
+The SCT concept id and standard terminology is listed before the
+offsets.
+
+3- MedDRA: Those file in the previous sets are annotated with MedDRA
+codes in a similar format. 
+
+For example,
+TT3     10028294 165 172        cramped
+
+
+----------------------------------------------------------------------
+
+The original posts can only be provided by AskaPatient. Please contact
+admin@askapatient.com. Any other inquiries to be directed to
+Dr Sarvnaz Karimi (sarvnaz.karimi@csiro.au)
+or 
+Dr Alejandro Metke (alejandro.metke@csiro.au)
+
