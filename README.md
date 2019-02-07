@@ -32,5 +32,5 @@ clearly associated with taking the drug, e.g, *acute stomach pain*.
 2. **Disease**, the reason for taking the drug, e.g., *insomnia* or *aggression*.
 3. **Drug**,  names of medicine or drug, e.g., *Diclofenac* or “Aspirin”.
 4. **Symptom**, manifestations of the disease, e.g.,  *trouble sleeping* or *constantly angry*.
-5. **Finding**, a clinical finding that does not pertain to any of the above categories.## File format
+5. **Finding**, a clinical finding that does not pertain to any of the above categories.
 
