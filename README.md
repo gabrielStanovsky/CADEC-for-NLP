@@ -1,5 +1,5 @@
 # CADEC for NLP
-This repo converts the CADEC corpus into the train and test CoNLL representation described in [Recognizing Mentions of Adverse Drug Reaction in Social Media Using Knowledge-Infused Recurrent Models[(https://gabrielstanovsky.github.io/assets/papers/eacl17a/paper.pdf), Stanovsky, Gruhl, and Mendes, EACL 2017.
+This repo converts the CADEC corpus into the train and test CoNLL representation described in [Recognizing Mentions of Adverse Drug Reaction in Social Media Using Knowledge-Infused Recurrent Models](https://gabrielstanovsky.github.io/assets/papers/eacl17a/paper.pdf), Stanovsky, Gruhl, and Mendes, EACL 2017.
 
 ## Prerequisites
 
