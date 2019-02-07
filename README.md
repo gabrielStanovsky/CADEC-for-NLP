@@ -8,7 +8,7 @@ This repo converts the CADEC corpus into the train and test CoNLL representation
 ```bash
 pip install -r requirements.txt
 ```
-* Download the [CADEC corpus](https://doi.org/10.4225/08/570FB102BDAD2), and unpack it into the [data](data) folder.
+* Download the [CADEC corpus](https://doi.org/10.4225/08/570FB102BDAD2) and unpack it into the [data](data) folder.
 
 ## Creating the corpus
 
